@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>创业网站</title>
+		<style>
+			.divl
+			{
+				width:320px;
+				height:150px;
+				display:flex;
+				text-align: center;
+				line-height: 20px;
+			}
+			#myDIV
+			{
+				-webkit-animation: mydiv 4s infinite; 
+                animation: mydiv 4s infinite;
+			}
+			@-webkit-keyframes mydiv {
+             50% {-webkit-transform: rotate(360deg);}}
+			.divl h2
+			{
+				font-size: 80px;
+				text-shadow: 4px -3px 8px orange;
+			}
+			
+			.divr
+			{   width:1100px;
+			    height:100px;
+				display:flex;
+				background-color: purple;
+				opacity:0.5;
+                filter:Alpha(opacity=50);
+				}
+				.diva
+				{
+					width:1800px;
+					height:180px;
+					padding:0;
+				}
+	.dropbtn 
+	{
+    background-color:black;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width:190.3px;
+   background-color:rgb(25,0,0,0.7);
+    }
+    .dropdown 
+    {
+    display: inline-block;
+    float: right;
+    }
+    .dropleft 
+    {
+    display: inline-block;
+    }
+    .dropdown-content
+    {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 190.3px;
+    box-shadow: 0px 8px 16px 0px;
+    padding:12px 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+    opacity:0.7;
+    filter:Alpha(opacity=50);
+    }
+    .dropdown-content a 
+    {
+    color: darkred;
+    text-decoration:none;
+    display: block;
+    font-size:20px;
+    padding:12px 16px;
+    margin-top:37px;
+    }
+    .dropdown a
+    {
+    color: white;
+    text-decoration:none;
+    display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: brown;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: saddlebrown;}
+    ul
+    {
+    	list-style-type: none;
+    	margin: 0;
+    	padding:0;
+    	overflow: hidden;
+    	float: left;
+    }
+    li
+    {
+    	float:left;
+    }
+    li a, .dropbtn
+    {
+    	display: inline;
+    	color:white;
+    	text-align: center;
+    	padding:14px 16px;
+    	text-decoration: none;
+    }
+    .div3
+    {
+    	width:1800px;
+    	height:120px;
+    
+    }
+    .div3-1
+    {
+    	width:1800px;
+    	height:50px;
+    }
+    .div3-1 hover
+    {
+    	transform: translateX(500px)translateY(500px)scale(0.8) rotate(360deg);
+    }
+    .h2
+    {
+    	font-size: 20px;
+        float: left;
+        display:inline;
+    }
+    .div4
+    {
+    	width:1800px;
+    	height:1250px;
+    	margin-top: 50px;
+    }
+    .div5
+    {
+    	width:1800px;
+    	height:600px;
+    	margin-top: 50px;
+    	margin-left: 30px;
+    	-webkit-animation: mymove 5s infinite;
+    	animation: mymove 5s infinite;
+    }
+    .div4-1
+    {
+    	width:423px;
+    	height:400px;
+    	float: left;
+    	margin: 5px;
+    	-webkit-animation: mymove 5s infinite;
+    	animation: mymove 5s infinite;
+    }
+    @-webkit-keyframes mymove
+    {
+    	50%{box-shadow: 10px 20px 30px gold;}
+    }
+    .div4-2
+    {
+    	width:317px;
+    	height:400px;
+    	float: left;
+    	margin: 5px;
+    	border-radius: 18px;
+    	-webkit-animation: mymove 5s infinite;
+    	animation: mymove 5s infinite;
+    }
+    .div4-3
+    {
+    	width:550px;
+    	height:500px;
+    	float: left;
+    	margin:15px;
+    	margin-top: 100px;
+    	-webkit-animation: mymove 5s infinite;
+    	animation: mymove 5s infinite;
+    }
+    .div4-4
+    {
+    	width:400px;
+    	height:500px;
+    	float: left;
+    	margin:5px;
+    	border:1px solid darkgray;
+    	-webkit-animation: mymove 5s infinite;
+    	animation: mymove 5s infinite;
+    }
+    .div4-5
+    {
+    	width:400px;
+    	height:200px;
+    	float: left;
+    	margin:10px;
+    	border:1px solid darkgray;
+    	text-align: center;
+    	-webkit-animation: mymove 5s infinite;
+    	animation: mymove 5s infinite;
+    }
+           .div4-1 img
+			{
+			cursor:pointer;
+			transition: all 0.6s;	
+			}
+			.div4-1 img:hover
+			{
+				transform:scale(1.2)
+			}
+			.div4-2 img
+			{
+			cursor:pointer;
+			transition: all 0.6s;	
+			}
+			.div4-2 img:hover
+			{
+				transform:scale(1.2)
+			}
+			.div4-3 img
+			{
+			cursor:pointer;
+			transition: all 0.6s;	
+			}
+			.div4-3 img:hover
+			{
+				transform:scale(1.2)
+			}
+			.div4-4 img
+			{
+			cursor:pointer;
+			transition: all 0.6s;	
+			}
+			.div4-4 img:hover
+			{
+				transform:scale(1.2)
+			}
+			.div4-5 img
+			{
+				
+			cursor:pointer;
+			transition: all 0.6s;	
+			}
+			.div4-5 img:hover
+			{
+				transform:scale(1.2)
+			}
+			.divOne
+			{
+				width:1800px;
+				height:500px;
+				background-color:#A9A9A9;
+				}
+			.divone
+			{
+				width:300px;
+				height:450px;
+				float: left;
+				display: block;
+				margin-left:30px;
+				padding:0;
+				text-align: center;
+			}
+			.divone h6
+			{
+				font-size: x-large;
+				margin:0;
+				padding:0;
+			}
+	.divgd
+    {
+    	width:80px;
+    	height:70px;
+    	display: block;
+    	margin: 20px;
+    	padding:0;
+    	position: fixed;
+    	top:60%;
+    	left:1700px;
+    }
+    .divggd
+    {
+    	width:80px;
+    	height:70px;
+    	display: block;
+    	margin: 20px;
+    	padding:0;
+    	position: fixed;
+    	top:50%;
+    	left:1700px;
+    }
+    
+    .divgd a:hover
+    {
+    	-webkit-animation: mymov 1s infinite;
+    	animation: mymov 1s infinite;
+    	overflow: hidden;
+    	float: right;
+    }
+    .divggd a:hover
+    {
+    	-webkit-animation: mymov 1s infinite;
+    	animation: mymov 1s infinite;
+    	overflow: hidden;
+    	float: right;
+    	 -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    }
+     @-webkit-keyframes mymov
+    {
+    	50%{box-shadow: 10px 20px 30px red;}
+    }
+    .divggdd
+    {
+    	width:60px;
+    	height:40px;
+    	margin: 10px;
+    	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+    }
+    .divq p
+    {
+    	text-align: center;
+    	background-color:#A9A9A9;
+    	margin:0;
+    	font-size: larger;
+    }
+    
+	</style>
+	</head>
+	<body>
+		<div class="divl" id="myDIV">
+			<img src="img/logo.jpg" style="width:150px;height:150px">
+			<h2>朵宝</h2>
+		</div>
+		
+		<div class="r">
+				<ul>
+					<div class="dropdown">
+					<a class="dropbtn">关于我们</a>
+				<div class="dropdown-content">
+						<a href="#">公司简介</a>
+						<a href="#">管理团队</a>
+						<a href="#">企业文化</a>
+						<a href="#">联系我们</a>
+						<a href="#">企业视频</a>
+				</div>
+				</div>
+				</ul>
+			<ul>
+				<div class="dropdown">
+					<a class="dropbtn">产业服务</a>
+					<div class="dropdown-content">
+							<a href="#">产业总览</a>
+							<a href="#">世纪品牌</a>
+							<a href="#">食品安全</a>
+							<a href="#">管理咨询</a>
+							<a href="#">信息</a>
+					</div>
+			</div>
+			</ul>
+			<ul>
+				<div class="dropdown">
+					<a class="dropbtn">市场活动</a>
+			</div>
+			</ul>
+			<ul>
+				<div class="dropdown">
+					<a class="dropbtn">合作案例</a>
+					<div class="dropdown-content">
+							<a href="#">某大学</a>
+							<a href="#">某某大学</a>
+							<a href="#">某某某大学</a>
+							<a href="#">某某某某大学</a>
+							<a href="#">某某某某某大学</a>
+					</div>
+			</div>
+			</ul>
+			<ul>
+				<div class="dropdown">
+			 		<a class="dropbtn">新闻报道</a>
+						<div class="dropdown-content">
+							<a href="#">Excellent!</a>
+							<a href="#">Unbelievable!</a>
+							<a href="#">Splendid!</a>
+							<a href="#">Fantastic!</a>
+			            </div>
+			</div>
+			</ul>
+			<ul>
+				<div class="dropdown">
+		    		<a class="dropbtn">社会责任</a>
+					<div class="dropdown-content">
+							<a href="#">产业带动</a>
+							<a href="#">公益事业</a>
+					</div>
+			</div>
+			</ul>
+			<ul>
+				<div class="dropdown">
+					<a class="dropbtn">招贤纳士</a>
+					<div class="dropdown-content">
+					     <a href="#">社会招聘</a>
+					     <a href="#">校园招聘</a>
+					</div>
+			</div>
+			</ul>
+			<ul>
+				<div class="dropdown">
+					<a class="dropbtn" href="https://maweina17.github.io/%E7%99%BB%E9%99%86/">登陆
+					<img src="img/小箭头.png" style="width:30px;height:20px"></a>
+					<div class="dropdown-content">
+					     <a href="https://maweina17.github.io/%E7%99%BB%E9%99%86/">登陆</a>
+					     <a href="https://maweina17.github.io/%E7%99%BB%E9%99%86/">注册</a>
+					</div>
+			</div>
+			</ul>
+			</div>
+<div class="a">
+	<img src="img/中国领先的.png" style="width: 1800px;height:180px"> 
+</div>
+				
+			<div class="divgd">
+				<div class="divggdd">
+					<a href="https://maweina17.github.io/form/" target="_blank">
+						<img src="img/小信封.png" style="width:60px;height:40px"></a>
+				</div>
+			</div>
+			<div class="divggd">
+				<div class="divggdd">
+					<a><img src="img/小箭头.png" style="width:60px;height:40px"></a>
+				</div>
+			</div>
+			
+		 <div class="div3-1">
+			<h2 style="color: darkturquoise;"><strong>&nbsp;&nbsp;|&nbsp;&nbsp;行业价值</strong></h2>
+		</div>
+        <div class="div5">
+        	<div class="div4-4"><img src="img/剩菜.png" style="width:400px;height:500px;"></div>
+			<div class="div4-4"><img src="img/人工.png" style="width:400px;height:500px;"></div>
+			<div class="div4-4"><img src="img/采购.png" style="width:400px;height:500px;"></div>
+			<div class="div4-4"><img src="img/就餐.png" style="width:400px;height:500px;"></div>
+        </div>
+		
+		
+		
+		<div class="div3">
+			<h1>智慧食堂整体解决方案</h1>
+			<h2 style="color: darkturquoise;"><strong>|&nbsp;&nbsp;智慧食堂专业版&nbsp;&nbsp;|&nbsp;&nbsp;智慧食堂收银版&nbsp;&nbsp;|&nbsp;&nbsp;智慧食堂开放版&nbsp;&nbsp;|&nbsp;&nbsp;智慧食堂共建版</strong></h2>
+		</div>
+		<div class="div4">
+			<div class="div4-1"><img src="img/智能硬件.png" style="width:423px;height:400px;"></div>
+			<div class="div4-1"><img src="img/卧式.png" style="width:423px;height:400px;"></div>
+			<div class="div4-1"><img src="img/挂式.png" style="width:423px;height:400px;"></div>
+			<div class="div4-1"><img src="img/人脸.png" style="width:423px;height:400px;"></div>
+			
+			<div class="div4-1"><img src="img/软件配置.png" style="width:423px;height:400px;"></div>
+			<div class="div4-2"><img src="img/支付管理.png" style="width:317px;height:400px;"></div>
+			<div class="div4-2"><img src="img/财务管理.png" style="width:317px;height:400px;"></div>
+			<div class="div4-2"><img src="img/门店管理.png" style="width:317px;height:400px;"></div>
+			<div class="div4-2"><img src="img/采购管理.png" style="width:317px;height:400px;"></div>
+			
+			<div class="div4-1"><img src="img/接口配置.png" style="width:423px;height:400px;"></div>
+			<div class="div4-2"><img src="img/支付类.png" style="width:317px;height:400px;"></div>
+			<div class="div4-2"><img src="img/菜品类.png" style="width:317px;height:400px;"></div>
+			<div class="div4-2"><img src="img/门店类.png" style="width:317px;height:400px;"></div>
+			<div class="div4-2"><img src="img/配置类.png" style="width:317px;height:400px;"></div>
+		</div>
+		<div class="div3-1">
+			<h2 style="color: darkturquoise;"><strong>&nbsp;&nbsp;|&nbsp;&nbsp;服务价值</strong></h2>
+		</div>
+        <div class="div5">
+        	<div class="div4-3"><img src="img/降低运营成本1.png" style="width:550px;height:500px;"></div>
+			<div class="div4-3"><img src="img/增加营业收入1.png" style="width:550px;height:500px;"></div>
+			<div class="div4-3"><img src="img/提升管理效率1.png" style="width:550px;height:500px;"></div>
+        </div>
+        <div class="div3-1">
+			<h2 style="color: darkturquoise;"><strong>&nbsp;&nbsp;|&nbsp;&nbsp;售后服务</strong></h2>
+		</div>
+        <div class="div5">
+        	<div class="div4-4"><img src="img/400客服热线.png" style="width:400px;height:500px;"></div>
+			<div class="div4-4"><img src="img/专属团队对接.png" style="width:400px;height:500px;"></div>
+			<div class="div4-4"><img src="img/故障设备换货.png" style="width:400px;height:500px;"></div>
+			<div class="div4-4"><img src="img/系统异常反馈.png" style="width:400px;height:500px;"></div>
+        </div>
+        <div class="div3-1">
+			<h2 style="color: darkturquoise;"><strong>&nbsp;&nbsp;|&nbsp;&nbsp;合作单位</strong></h2>
+		</div>
+        <div class="div4">
+        	<div class="div4-5"><img src="img/1.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/2.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/3.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/4.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/5.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/6.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/7.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/8.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/9.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/10.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/11.png" style="width:200px;height:200px;"></div>
+			<div class="div4-5"><img src="img/12.png" style="width:200px;height:200px;"></div>
+        </div>
+        <div class="divOne">
+        	<div class="divone">
+        		<h6>&nbsp;</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>产品中心</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>朵宝</h6>
+        	</div>
+        	<div class="divone">
+        		<h6>&nbsp;</h6>
+        		<h6>智能硬件</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>智能餐柜</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>人脸识别</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>智能结算</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>智能闸机</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>智能售饭终端</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>其他硬件</h6>
+        	</div>
+        	<div class="divone">
+        		<h6>&nbsp;</h6>
+        		<h6>新闻动态</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>新闻公告</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>产品咨讯</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>行业动态</h6>
+        	</div>
+        	<div class="divone">
+        		<h6>&nbsp;</h6>
+        		<h6>关于我们</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>公司简介</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>招贤纳士</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>联系我们</h6>
+        	</div>
+        	<div class="divone">
+        		<h6>&nbsp;</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>扫码关注</h6>
+        		<h6>&nbsp;</h6>
+        		<h6>&nbsp;</h6>
+        		<img src="img/二维码.png" style="width:200px;height:200px">
+        	</div>
+        </div>
+        <div class="divq">
+        	 <p>Copyright © 网络工程一班 201905555507 马薇娜 版权所有</p>
+        </div>
+       
+	</body>
+</html>
